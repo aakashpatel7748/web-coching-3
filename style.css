@@ -52,7 +52,7 @@ header{
 .hero-section{
     width: 100%;
     height: 100%;
-    padding: 5% 9%;
+    padding: 3% 9%;
     background-image: url(banner-bg.png);
     background-position: center;
     background-size: cover;
@@ -162,3 +162,226 @@ form > h2{
     border-radius: 5px;
     margin-top: 10px;
 }
+
+
+/* ====================section 2==========*/
+
+.section2{
+    width: 100%;
+    background-color: #F5F5F5;
+    padding: 1% 9%;
+}
+.sec2-con1{
+    margin: 4% 0;
+    
+}
+
+.sec2-hading > h1{
+    padding: 2% 0;
+   text-align: center;
+   font-size: 40px;
+   font-weight: 300;
+}
+.sec2-hading > p{
+    padding: 1% 15%;
+   text-align: center;
+   font-size: 19px;
+   font-weight: 50;
+   line-height: 1.5;
+}
+
+.sec2-con1{
+    display: flex;
+    padding: 5% 0;
+    gap: 20px;
+}
+.sec2-text >h3{
+     font-size: 25px;
+     font-weight: 200;
+     padding: 2% 0;
+}
+.sec2-text >p{
+    padding-top: 1% ;
+    padding-right: 15%;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+.sec2-con2{
+    display: flex;
+    gap: 15%;
+}
+
+.sec2-hading2 > h3{
+    font-size: 25px;
+    font-weight: 200;
+    padding: 2% 0;
+}
+.sec2-hading2 > p{
+    /* padding-top: 1% ; */
+    /* padding-right: 15%; */
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 1.5;
+    font-weight: lighter;
+}
+
+/* ============section============ */
+
+.section3{
+    padding: 1% 9%;
+
+}
+.section3> h1{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+    
+}
+.section3-box{
+   display: flex;
+    gap: 20px; 
+    padding: 5% 0;
+}
+.box{
+    width: 100% ;
+    height: 175px;
+    background-color: #F5F5F5;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+  
+}
+.box > h2{
+    font-size: 15px;
+    padding: 17% 0;
+}
+.box > img{
+    width: 60%;
+     
+}
+.box5{
+    width: 100%;
+    
+}
+
+.box :hover{
+  width: 100%;
+    height: 170px;
+    transition: 2s;
+    
+    /* transform: 3s; */
+}
+
+.section4{
+    width: 100%;
+    background-color: #FFFBED;
+    text-align: center;
+    padding: 0 9%;
+}
+.section4 > h1{
+    font-size: 40px ;
+    font-weight: 100;
+    padding: 3% 0;
+}
+.section4-con1{
+    width: 100%;
+    padding: 3% 0;
+    display: flex;
+    gap: 30px;
+}
+.section4-text1> img{
+    width: 20%;
+    
+}
+.section4-text1> h3{
+    padding: 2% 0;
+    
+}
+.section4-text1> p{
+    padding: 0 15%;
+    
+}
+.section4-text2> img{
+    width: 20%;
+}
+.section4-text2> h3{
+    padding: 2% 0;
+    
+}
+.section4-text2> p{
+    padding: 0 15%;
+    
+}
+
+/* -=================section5============ */
+
+.section5{
+    padding: 2% 9%;
+    
+}
+.section5 > h1{
+    text-align: center;
+    padding: 2% 0;
+}
+.sec5-main{
+    display: flex;
+    /* gap: 20px; */
+     align-items: center;
+     justify-content: center;
+}
+.sec5-left-text{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  
+}
+.text1 {
+    width:250px ;
+    height: 100px;
+    background-color: #F8FAF7;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 4%;
+}
+.text1 > img{
+    width: 25%;
+}
+
+/* =================section6============== */
+
+.section6{
+    padding: 1% 9%;
+    background-color: #F5F5F5;
+    text-align: center;
+}
+.section6 > h1{
+    padding: 1% 0;
+   text-align: center;
+   align-items: center;
+   font-weight: 500;
+   font-size: 35px;
+}
+.section6 >p{
+    padding: 2% 20%;
+}
+
+.sec7-box1{
+    width: 200px;
+    height:300px;
+    /* background-color: red; */
+}
+.sec7-content{
+    width: 300px;
+    height: 400px;
+    background-color: red;
+}
+.sec7-box1> h2{
+    font-size: 10px;
+}
+
+
+
